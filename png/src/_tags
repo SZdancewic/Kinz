@@ -1,3 +1,2 @@
-true: package(core)
 true: thread
 true: unsafe
