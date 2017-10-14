@@ -1,4 +1,4 @@
-OCBFLAGS := -use-ocamlfind -pkg imagelib
+OCBFLAGS := -cflags -w,-3 -use-ocamlfind
 OCB := ocamlbuild $(OCBFLAGS)
 
 .PHONY: all debug clean top profile
